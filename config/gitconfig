@@ -1,0 +1,7 @@
+[user]
+	name = Bryan Crowe
+	email = bryan@bryan-crowe.com
+[color]
+	ui = 1
+[core]
+	editor = vim
