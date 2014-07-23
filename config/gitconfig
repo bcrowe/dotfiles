@@ -5,3 +5,4 @@
 	ui = 1
 [core]
 	editor = vim
+	filemode = false
