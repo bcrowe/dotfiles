@@ -2,7 +2,10 @@
 	name = Bryan Crowe
 	email = bryan@bryan-crowe.com
 [color]
-	ui = 1
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
 [core]
 	editor = vim
 	filemode = false
