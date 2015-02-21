@@ -81,3 +81,7 @@ export PATH="/usr/local/opt/php55/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/b
 
 export PATH=/usr/local/bin:$PATH
 
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
