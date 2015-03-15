@@ -290,9 +290,6 @@ map <Leader>a :Ack<Space>
 
 " }}}
 
-" MacVIM shift+arrow-keys behavior (required in .vimrc)
-let macvim_hig_shift_movement = 1
-
 " Load vimrc in each directory that vim is opened in.
 " This provides 'per project' vim config.
 set exrc
