@@ -249,9 +249,6 @@ map <C-\> :tnext<CR>
 
 " {{{ Plugin config
 
-" ZoomWin configuration
-map <Leader><Leader> :ZoomWin<CR>
-
 " CTags
 let g:tlist_php_settings = 'php;c:class;d:constant;f:function'
 
@@ -265,9 +262,6 @@ imap <Leader>/ <Esc><plug>NERDCommenterToggle<CR>i
 
 " Command-T configuration
 let g:CommandTMaxHeight=20
-
-" RagTag
-let g:ragtag_global_maps = 1
 
 " Enable syntastic syntax checking
 let g:syntastic_check_on_open=0
