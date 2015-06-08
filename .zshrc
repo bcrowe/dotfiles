@@ -80,3 +80,6 @@ export PATH="/usr/local/opt/php55/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/b
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH=/usr/local/bin:$PATH
+export PATH=~/.composer/vendor/bin:$PATH
+
+source /usr/local/opt/nvm/nvm.sh
