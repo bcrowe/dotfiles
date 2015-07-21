@@ -79,6 +79,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH=/usr/local/bin:$PATH
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 export PATH=~/.composer/vendor/bin:$PATH
 
 source /usr/local/opt/nvm/nvm.sh
