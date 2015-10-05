@@ -75,5 +75,3 @@ export PATH=~/.composer/vendor/bin:$PATH
 
 source /usr/local/opt/nvm/nvm.sh
 source /usr/local/bin/virtualenvwrapper.sh
-
-K
