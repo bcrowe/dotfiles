@@ -72,6 +72,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:$PATH
 export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 export PATH=~/.composer/vendor/bin:$PATH
+export GOPATH=$HOME/Projects/go
 
 source /usr/local/opt/nvm/nvm.sh
 source /usr/local/bin/virtualenvwrapper.sh
