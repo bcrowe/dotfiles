@@ -69,6 +69,10 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+
 export PATH=/usr/local/bin:$PATH
 export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 export PATH=$HOME/.composer/vendor/bin:$PATH
