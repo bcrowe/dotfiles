@@ -72,6 +72,8 @@ source $ZSH/oh-my-zsh.sh
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
+setopt APPEND_HISTORY
+setopt SHARE_HISTORY
 
 export PATH=/usr/local/bin:$PATH
 export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
