@@ -72,7 +72,12 @@ source $ZSH/oh-my-zsh.sh
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
-setopt APPEND_HISTORY
+setopt APPEND_HISTORY 
+setopt INC_APPEND_HISTORY 
+setopt HIST_IGNORE_DUPS
+setopt HIST_FIND_NO_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt EXTENDED_HISTORY
 setopt SHARE_HISTORY
 
 export PATH=/usr/local/bin:$PATH
