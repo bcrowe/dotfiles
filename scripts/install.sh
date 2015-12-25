@@ -5,7 +5,7 @@
 	echo 'Backed up zshrc to zshrc.bak'
 
 rm $HOME/.zshrc
-ln -s $HOME/.dotfiles/zshrc $HOME/.zshrc
+ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 for file in $HOME/.dotfiles/*
 do
