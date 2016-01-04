@@ -9,6 +9,6 @@
 [core]
 	editor = vim
 	filemode = false
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.dotfiles/.gitignore_global
 [github]
 	user = bcrowe
