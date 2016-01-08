@@ -87,3 +87,5 @@ export GOPATH=$HOME/Projects/go
 
 source /usr/local/opt/nvm/nvm.sh
 source /usr/local/bin/virtualenvwrapper.sh
+
+alias p="cd ~/Projects"
